@@ -1242,6 +1242,7 @@ body.loaded {
 *  START: Portfolio Section
 * ===============================
 */
+
 .portfolio-section {
 	padding-top: 120px;
 	padding-bottom: 80px;
@@ -1295,6 +1296,8 @@ body.loaded {
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
+
+
 .portfolio-box {
 	padding-top: 50px;
 	background-size: contain;
@@ -1302,6 +1305,7 @@ body.loaded {
 	background-position: center;
 	position: relative;
 }
+
 .portfolio-box:before {
 	content: "";
 	position: absolute;
@@ -1327,11 +1331,12 @@ body.loaded {
 	-webkit-filter: blur(150px);
 	filter: blur(150px);
 }
+
 .portfolio-box .portfolio-sizer {
 	width: 48%;
 }
 .portfolio-box .portfolio-item {
-	background-color: var(--tj-theme-accent-2);
+	background-color: #212f7f;
 	margin-bottom: 4%;
 	padding: 36px 36px 0 36px;
 	border-radius: 10px;
@@ -1377,6 +1382,8 @@ body.loaded {
 		var(--tj-theme-primary) 100%
 	);
 }
+
+
 .portfolio-box .portfolio-item:hover .content-box {
 	opacity: 1;
 	visibility: visible;
@@ -1391,7 +1398,6 @@ body.loaded {
 	margin-bottom: 0;
 }
 .portfolio-box .portfolio-item .content-box .portfolio-link {
-	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -1423,6 +1429,8 @@ body.loaded {
 	-ms-transform: translateY(-50%) rotate(360deg);
 	transform: translateY(-50%) rotate(360deg);
 }
+
+
 /*  END: Portfolio Section */
 
 /*
