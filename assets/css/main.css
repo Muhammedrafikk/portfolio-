@@ -1011,9 +1011,9 @@ body.loaded {
 
 .hero-image-box img {
 	border-radius: 38px;
-	-webkit-transform: rotate(4.29deg);
-	-ms-transform: rotate(4.29deg);
-	transform: rotate(4.29deg);
+	/* -webkit-transform: rotate(4.29deg); */
+	/* -ms-transform: rotate(4.29deg); */
+	/* transform: rotate(4.29deg); */
 	position: relative;
 	border: 2px solid var(--tj-theme-secondary);
 	-webkit-transition: 0.3s;
